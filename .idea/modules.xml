@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/test1.iml" filepath="$PROJECT_DIR$/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms/test1-cms.iml" filepath="$PROJECT_DIR$/cms/test1-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-dependencies/test1-cms-dependencies.iml" filepath="$PROJECT_DIR$/cms-dependencies/test1-cms-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/components/test1-components.iml" filepath="$PROJECT_DIR$/site/components/test1-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essentials/test1-essentials.iml" filepath="$PROJECT_DIR$/essentials/test1-essentials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/test1-repository-data.iml" filepath="$PROJECT_DIR$/repository-data/test1-repository-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/application/test1-repository-data-application.iml" filepath="$PROJECT_DIR$/repository-data/application/test1-repository-data-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/development/test1-repository-data-development.iml" filepath="$PROJECT_DIR$/repository-data/development/test1-repository-data-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/site/test1-repository-data-site.iml" filepath="$PROJECT_DIR$/repository-data/site/test1-repository-data-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/site-development/test1-repository-data-site-development.iml" filepath="$PROJECT_DIR$/repository-data/site-development/test1-repository-data-site-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/webfiles/test1-repository-data-webfiles.iml" filepath="$PROJECT_DIR$/repository-data/webfiles/test1-repository-data-webfiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/test1-site.iml" filepath="$PROJECT_DIR$/site/test1-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/webapp/test1-webapp.iml" filepath="$PROJECT_DIR$/site/webapp/test1-webapp.iml" />
+    </modules>
+  </component>
+</project>

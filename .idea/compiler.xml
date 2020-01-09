@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test1-repository-data-site" />
+        <module name="test1-repository-data-webfiles" />
+        <module name="test1-repository-data-site-development" />
+        <module name="test1-essentials" />
+        <module name="test1-components" />
+        <module name="test1-repository-data-application" />
+        <module name="test1-cms" />
+        <module name="test1-repository-data-development" />
+        <module name="test1-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test1" target="1.5" />
+      <module name="test1-cms" target="1.8" />
+      <module name="test1-cms-dependencies" target="1.5" />
+      <module name="test1-components" target="1.8" />
+      <module name="test1-essentials" target="1.8" />
+      <module name="test1-repository-data" target="1.5" />
+      <module name="test1-repository-data-application" target="1.8" />
+      <module name="test1-repository-data-development" target="1.8" />
+      <module name="test1-repository-data-site" target="1.8" />
+      <module name="test1-repository-data-site-development" target="1.8" />
+      <module name="test1-repository-data-webfiles" target="1.8" />
+      <module name="test1-site" target="1.5" />
+      <module name="test1-webapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

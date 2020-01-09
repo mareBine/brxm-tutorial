@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:sites/test1:
+      jcr:primaryType: hst:site
+      hst:content: /content/documents/test1

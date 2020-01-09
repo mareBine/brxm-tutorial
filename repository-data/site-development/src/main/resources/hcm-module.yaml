@@ -1,0 +1,6 @@
+site: test1
+group: test1
+project: test1
+module:
+  name: test1-repository-data-site-development
+  after: test1-repository-data-site

@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    test1:
+      uri: http://www.test1.com/test1/nt/1.0
+      cnd: namespaces/test1.cnd

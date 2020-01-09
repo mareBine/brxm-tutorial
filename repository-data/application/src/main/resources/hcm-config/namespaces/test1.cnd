@@ -1,0 +1,6 @@
+<'test1'='http://www.test1.com/test1/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+
+[test1:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
