@@ -2,3 +2,21 @@ definitions:
   config:
     /hst:hst/hst:configurations/test1/hst:templates:
       jcr:primaryType: hst:templates
+      /base-layout:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/test1/base-layout.ftl
+      /base-top-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/test1/base-top-menu.ftl
+      /base-footer:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/test1/base-footer.ftl
+      /homepage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/test1/homepage-main.ftl
+      /pagenotfound-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/test1/pagenotfound-main.ftl
+      /contentlist-main-contentlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/contentlist-main-contentlist.ftl

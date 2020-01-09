@@ -28,7 +28,6 @@
           <element id="library" level="project" name="Maven: org.onehippo.cms7.hst:hst-content-beans:13.4.0" />
           <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.9.10" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
-          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-proxy:1.0" />
           <element id="library" level="project" name="Maven: org.onehippo.cms7.hst:hst-commons:13.4.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9.3" />
@@ -104,6 +103,10 @@
           <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-spi:2.18.3-h1" />
           <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.28" />
           <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-selections-hst-client:13.4.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-taxonomy-api:13.4.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-taxonomy-hst-api:13.4.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-taxonomy-hstclient:13.4.0" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
           <element id="library" level="project" name="Maven: org.onehippo.cms7.hst.toolkit-resources.addon:hst-addon-hcm-site:13.4.0" />
         </element>
       </element>

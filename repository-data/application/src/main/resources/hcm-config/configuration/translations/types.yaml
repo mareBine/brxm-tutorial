@@ -1,0 +1,32 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/test1:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Simple Document
+        test1:content: Content
+        test1:introduction: Introduction
+        test1:publicationdate: Publication date
+        test1:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Eenvoudig Document
+        test1:content: Inhoud
+        test1:introduction: Introductie
+        test1:publicationdate: Publicatiedatum
+        test1:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document simple
+        test1:content: Contenu
+        test1:introduction: Introduction
+        test1:publicationdate: Date de publication
+        test1:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Einfaches Dokument
+        test1:content: Inhalt
+        test1:introduction: Einführung
+        test1:publicationdate: Publikationsdatum
+        test1:title: Titel

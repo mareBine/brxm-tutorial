@@ -130,7 +130,6 @@
           <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.3" />
           <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-repository-connector:13.4.0" />
           <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-jcr-rmi:2.18.3-h1" />
-          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
           <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-repository-utilities:13.4.0" />
           <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-api:2.18.3-h1" />
           <element id="library" level="project" name="Maven: org.jetbrains:annotations:16.0.3" />
@@ -239,6 +238,10 @@
           <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-resourcebundle-editor:13.4.0" />
           <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-selections-addon-cms:13.4.0" />
           <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-selections-addon-repository:13.4.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-taxonomy-api:13.4.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-taxonomy-addon-frontend:13.4.0" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-plugin-taxonomy-addon-repository:13.4.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
