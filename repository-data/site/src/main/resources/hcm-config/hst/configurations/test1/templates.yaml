@@ -20,3 +20,6 @@ definitions:
       /contentlist-main-contentlist:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/hstdefault/contentlist-main-contentlist.ftl
+      /bosch-banner-component:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/components/bosch-banner-component.ftl

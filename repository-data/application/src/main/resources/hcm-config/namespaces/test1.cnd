@@ -7,6 +7,12 @@
 [test1:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
+[test1:BoschBanner] > hippostd:relaxed, hippotranslation:translated, test1:basedocument
+  orderable
+
+[test1:bannerdocument] > hippostd:relaxed, hippotranslation:translated, test1:basedocument
+  orderable
+
 [test1:contentdocument] > hippostd:relaxed, hippotranslation:translated, test1:basedocument
   orderable
 

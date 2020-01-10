@@ -25,29 +25,68 @@
       resourcebundle:messages: [©2020]
   /homepage:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 24124428-ff56-4261-a7ba-542de55b5d65
     hippo:name: Homepage
-    /homepage:
+    hippo:versionHistory: 9d8a4d98-21d3-47b0-b087-84e8779e5d6f
+    /homepage[1]:
       jcr:primaryType: resourcebundle:resourcebundle
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: ce5d4a25-cd7d-4f45-962c-de40f204468a
-      hippo:availability: [live, preview]
+      hippo:availability: [live]
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
-      hippostdpubwf:lastModificationDate: 2014-08-21T17:11:53.242+02:00
+      hippostdpubwf:lastModificationDate: 2020-01-09T15:09:07.874+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2014-08-21T17:11:55.239+02:00
+      hippostdpubwf:publicationDate: 2020-01-09T15:09:14.511+01:00
       resourcebundle:descriptions: [Title displayed on homepage., Text displayed on
           homepage.]
       resourcebundle:id: essentials.homepage
       resourcebundle:keys: [homepage.title, homepage.text]
-      resourcebundle:messages: [Home Page, 'Every website comes with its own styling
-          requirements. The Bloomreach setup application can therefore not address
-          site styling. Instead, the generated pages use minimal styling to render
-          the content. It is the task of the project developer to adjust the front-end
-          to the site''s needs.']
+      resourcebundle:messages: [Home Page  12345, 'Every website comes with its own
+          styling requirements. The Bloomreach setup application can therefore not
+          address site styling. Instead, the generated pages use minimal styling to
+          render the content. It is the task of the project developer to adjust the
+          front-end to the site''s needs.']
+    /homepage[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 3264396d-6411-46b9-88d8-55990f0d9697
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+      hippostdpubwf:lastModificationDate: 2020-01-09T15:09:07.874+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Title displayed on homepage., Text displayed on
+          homepage.]
+      resourcebundle:id: essentials.homepage
+      resourcebundle:keys: [homepage.title, homepage.text]
+      resourcebundle:messages: [Home Page  12345, 'Every website comes with its own
+          styling requirements. The Bloomreach setup application can therefore not
+          address site styling. Instead, the generated pages use minimal styling to
+          render the content. It is the task of the project developer to adjust the
+          front-end to the site''s needs.']
+    /homepage[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dfe96a40-3ab1-495e-b3f2-0e558c1ea07c
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+      hippostdpubwf:lastModificationDate: 2020-01-09T15:09:11.177+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Title displayed on homepage., Text displayed on
+          homepage.]
+      resourcebundle:id: essentials.homepage
+      resourcebundle:keys: [homepage.title, homepage.text]
+      resourcebundle:messages: [Home Page  12345, 'Every website comes with its own
+          styling requirements. The Bloomreach setup application can therefore not
+          address site styling. Instead, the generated pages use minimal styling to
+          render the content. It is the task of the project developer to adjust the
+          front-end to the site''s needs.']
   /pagenotfound:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'mix:referenceable']

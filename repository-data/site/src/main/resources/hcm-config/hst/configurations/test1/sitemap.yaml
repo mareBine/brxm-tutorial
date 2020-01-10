@@ -2,11 +2,6 @@ definitions:
   config:
     /hst:hst/hst:configurations/test1/hst:sitemap:
       jcr:primaryType: hst:sitemap
-      /root:
-        jcr:primaryType: hst:sitemapitem
-        hst:componentconfigurationid: hst:pages/homepage
-        hst:pagetitle: Home Page
-        hst:refId: root
       /_any_:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/pagenotfound
@@ -28,3 +23,11 @@ definitions:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/contentlist
           hst:relativecontentpath: ${parent}/${1}
+      /root:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        hst:pagetitle: Home Page
+        hst:refId: root
+      /bosch-banner:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/bosch-banner
