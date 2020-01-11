@@ -58,6 +58,13 @@
       <artifactId>hippo-plugin-taxonomy-hstclient</artifactId>
     </dependency>
 
+    <!-- RESTEasy client -->
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-client</artifactId>
+      <version>3.0.2.Final</version>
+    </dependency>
+
   </dependencies>
   <build>
     <resources>

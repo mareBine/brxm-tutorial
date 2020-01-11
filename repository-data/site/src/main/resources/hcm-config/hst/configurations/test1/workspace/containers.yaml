@@ -23,7 +23,7 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hst:label: Home Page Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2020-01-10T13:36:55.496+01:00
+          hst:lastmodified: 2020-01-11T19:48:28.417+01:00
       /pagenotfound:
         jcr:primaryType: hst:containercomponentfolder
         /main:
